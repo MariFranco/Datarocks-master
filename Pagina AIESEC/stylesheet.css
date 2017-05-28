@@ -1,0 +1,36 @@
+
+
+body {
+  font-family:Helvetica,Futura,Arial,Verdana;
+}
+.bar {
+	color:black
+}
+
+.brand-logo {
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;  
+}
+
+put-field:email	 {
+	color: green;
+}*/
+
+/* label color */
+input:validate {
+ color: #000000;
+
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+ color: #000000;
+}
+
+
+/* invalid color */
+.input-field input[type=text].data-error {
+ border-bottom: 1px solid #FE2E2E;
+ box-shadow: 0 1px 0 0 #FE2E2E;
+}
+
+
